@@ -1,5 +1,5 @@
-# Start building Angular 2 apps with ES6 + Babel + Gulp
-# Angular 2 ES6 Babel Boilerplate
+# Start building Angular 2 apps with ES6(Babel) and Gulp
+# Angular 2 ES6(Babel) Boilerplate
 
 ## Try
 
