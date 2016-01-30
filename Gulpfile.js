@@ -15,7 +15,6 @@ const HTTP_PORT = 3000;
 
 // Vendor scripts, the order matters.
 const VENDOR_FILES = [
-    //'es6-shim/es6-shim.js',
     'systemjs/dist/system-polyfills.js',
     'angular2/bundles/angular2-polyfills.js',
     'systemjs/dist/system.src.js',
@@ -31,7 +30,6 @@ gulp.task('app-html', () => {
 
 gulp.task('vendor-js', () => {
   return gulp.src(VENDOR_FILES)
-    //.pipe($.uglify())
     .pipe($.concatUtil('vendor.js'))
     .pipe(gulp.dest(TARGET));
 });
