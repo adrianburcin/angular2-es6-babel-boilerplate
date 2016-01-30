@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Angular 2 QuickStart</title>
+</head>
+<body>
+<my-app>Loading...</my-app>
+</body>
+<script src="vendor.js"></script>
+<script>
+    System.config({
+        packages: {
+            app: {
+                format: 'register',
+                defaultExtension: 'js'
+            }
+        }
+    });
+    System.import('app/boot')
+            .then(null, console.error.bind(console));
+</script>
+</html>
